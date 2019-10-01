@@ -2,7 +2,7 @@
 <html lang="en">
     
 <head>
-
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,6 +14,12 @@
 
 <!-- Custom styles for this template -->
 <link href="css/modern-business.css" rel="stylesheet">
+    
+    <style>
+        h1 {color:black;}
+        p {color:black;}
+        background-color: white;
+    </style>
     
 </head>
 
@@ -27,10 +33,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="DR.html">Defeasible Reasoning</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="BR.html">Belief Revision</a>
             </li>
             <li class="nav-item">
@@ -89,98 +95,127 @@
         </li>
         <li class="breadcrumb-item active">Defeasible Reasoning</li>
       </ol>
-
-<h1>Introduction</h1>
-<p>Differences in reasoning is common amongst humans. In the Artificial
-Intelligenceand cognitive science community, an important question has been to
-model human reasoning behaviour. As a result, forms of non-classical or
-non-monotonic reasoning have been  as flexible approaches to model human
-reasoning.  Defeasible reasoning is one form of non-monotonic reasoning. It is
-based on non-absolute information about the state of the world which allows a
-reasoning agent to draw flexible conclusions. Defeasible reasoning is flexible in
-that new evidence presented to a reasoning agent has the potential to strengthen
-the original conclusion, or invalidate it.</p>
-
-<h1>Example</h1>
-<p>Suppose we know the following:<br>
-<p>(i) Sarah is a linguist<br>
-<p>(ii) Linguists typically speak more than three languages</p>
-
-<p>Can we infer that Sarah speaks more than three languages? The answer depends on whether Sarah is a typical linguist or not. If Sarah is a typical linguist, we can infer that she speaks more than three languages. If Sarah is an atypical linguist, we cannot infer this.</p>
-
-<h1>Research Questions</h1>
-<p>RQ1. To what extent does the formal properties of defeasible reasoning correspond with human reasoning?</p>
-
-<p>RQ2. Does defeasible reasoning compare normatively or descriptively with the reasoning style of humans?</p>
-
-<h1>Survey Design and Execution</h1>
-<p>The Kraus-Lehmann-Magidor (KLM) [1] defeasible properties are axioms derived from
-propositional logic statements.  These properties were used as the basis for a
-survey which compared human reasoning to defeasible reasoning. The survey contained
-abstract and concrete reasoning questions.  For each a question, a KLM defeasible
-reasoning property was translated into its English meaning . The property was then
-applied to both an abstract and a concrete reasoning scenario. The survey
-participants were required to agree or disagree with the proposed conclusion for
-each question and motivate their answer. In the above example, the property of >>
-is being tested.The assumption made is that if the participant agrees with the
-proposed conclusion, then the property being tested holds with human reasoning.
-The final survey was developed using Google Forms and conducted on Amazon’s
-Mechanical Turk. Due to time constraints, the survey was conducted with 30
-participants.</p>
-
-<h1>Findings and Conclusions</h1>
- <div class="row">
-     <div class="col-lg-2 col-sm-4 mb-4">
-         <img class = "img-fluid" src="BKRCLA003/Graph1.png" alt="Figure 1">
-     </div>
+    
+    <div class="row">
+        <div>
+        <h1>Introduction</h1>
+        <p>Differences in reasoning is common amongst humans. In the Artificial
+        Intelligence and cognitive science community, an important question has
+        been to model human reasoning behaviour. As a result, forms of
+        non-classical or non-monotonic reasoning have been developed as flexible
+        approaches to model human reasoning.  Defeasible reasoning is one form of
+        non-monotonic reasoning. It is based on non-absolute information about the
+        state of the world which allows a reasoning agent to draw flexible
+        conclusions. Defeasible reasoning is flexible in that new evidence
+        presented to a reasoning agent has the potential to strengthen the original
+        conclusion, or invalidate it.</p>
+        </div>
  </div>
  
  <div class="row">
-     <div class="col-lg-2 col-sm-4 mb-4">
-         <img class = "img-fluid" src="BKRCLA003/Graph2.png" alt="Figure 2">
+     <div>
+         <h1>Example</h1>
+         <p>Suppose we know the following:<br>
+         <p>(i) Sarah is a linguist <br>
+            (ii) Linguists typically speak more than three languages</p>
+         <p>Can we infer that Sarah speaks more than three languages? The answer depends on whether Sarah is a typical linguist or not. If Sarah is a typical linguist, we can infer that she speaks more than three languages. If Sarah is an atypical linguist, we cannot infer that she speaks more than three languages.</p>
+     </div>
+ </div>
+
+<div class="row">
+  <div>
+      <h1>Research Questions</h1>
+      <p>RQ1. To what extent does the formal properties of defeasible reasoning
+      correspond with human reasoning?</p>
+      <p>RQ2. Does defeasible reasoning compare normatively or descriptively with
+      the reasoning style of humans?</p>
+   </div>
+ </div>
+
+<div class="row">
+ <div>
+     <h1>KLM Defeasible Reasoning Postulates</h1>
+     <div class="row">
+         <div class="col-lg-6">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/REF.png" alt="REF">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/LLE.png" alt="LLE">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/RW.png" alt="RW">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/AND.png" alt="AND">
+            <img class = "img-fluid rounded mb-4" src="BKRCLA003/OR.png" alt="OR">
+            <img class = "img-fluid rounded mb-4" src="BKRCLA003/CM.png" alt="CM">
+         </div>
+     </div>
+  </div>
+</div>
+
+<div class="row">
+ <div>
+     <h1>Additional Defeasible Reasoning Postulates</h1>
+     <div class="row">
+         <div class="col-lg-6">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/CUT.png" alt="CUT">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/RM.png" alt="RM">
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/TRANSITIVITY.png" alt="TRANSITIVITY"><br>
+             <img class = "img-fluid rounded mb-4" src="BKRCLA003/CONTRAPOSITION.png" alt="CONTRAPOSITION">
+         </div>
+     </div>
+  </div>
+</div>
+
+ <div class="row">
+   <div>
+       <h1>Survey Design and Execution</h1>
+       <p>The Kraus-Lehmann-Magidor (KLM) [1] defeasible properties are formulated using propositional logic notation.  These properties were used as the basis for a survey which compared human reasoning to defeasible reasoning. The survey contained abstract and concrete reasoning questions.  For each a question, a KLM [1] defeasible reasoning property was translated into its English meaning . The property was then applied to both an abstract and a concrete reasoning scenario. The survey participants were required to agree or disagree with the proposed conclusion for each question and motivate their answer. In the above linguist example, the two statements are formulated according to defeasible reasoning property of <i>Transitivity</i>. The assumption made is that if the participant agrees with the proposed conclusion, then the property being tested holds with human reasoning. The final survey was developed using Google Forms and conducted on Amazon’s Mechanical Turk. Due to time constraints, the survey was conducted with 30 participants.</p>
+    </div>
+ </div>
+
+ <div class="row">
+    <div>
+        <h1>Findings</h1>
+        <p>In Figure 1, we see that the KLM [1] property of <i>Or</i> had significant similarity to human reasoning, in both concrete form and abstract form, as did the properties of <i>Contraposition</i> and <i>Transitivity</i>. In the concrete case, we found that participants were able to reason both prototypically and presumptively.</p>
+    </div>
+ </div>
+
+ <div class="row">
+     <div class="col-lg-6">
+         <img class = "img-fluid rounded mb-4" src="BKRCLA003/Graph1.png" alt="Figure 1">
+        <img class = "img-fluid rounded mb-4" src="BKRCLA003/Graph2.png" alt="Figure 2">
      </div>
  </div>
 
      
  <div class="row">
      <div>
-         <p>The KLM property of Or had significant similarity to human reasoning,
-         in both abstract and concrete form, as did the properties of
-         Contraposition and Transitivity. In the concrete case, it was found
-         that participants were able to reason both prototypically and
-         presumptively. In terms of participant reasoning style, a normative
-         reasoning style prevailed across both abstract and concrete questions.
-         Future work entails conducting the experiment with a larger population
-         sample.</p>
+         <p> A normative and descriptive reasoning style was defined in the final paper. In Figure 2, we observe that a normative reasoning style prevailed across both concrete questions (Q1-9) and abstract questions (Q10-17). Future work entails conducting the experiment with a larger population sample.</p>
      </div>
  </div>
 
-<div class="row">
-<div>
-<h1>Downloads</h1>
-<!--Buttons -->
-<!--<button type="" class="btn btn-primary" id="getPaperButton">Paper</button> -->
-<!-- <div class="row"> -->
-    <nav> <a class="nav-link" href="BKRCLA003/FinalPaper.pdf"> > Final Paper</a> </nav>
-    <nav> <a class="nav-link" href="BKRCLA003/LitReview.pdf"> > Literature Review</a> </nav>
-        </div>
+ <div class="row">
+     <div>
+        <h1>Downloads</h1>
+        <!--Buttons -->
+        <!--<button type="" class="btn btn-primary" id="getPaperButton">Paper</button> -->
+        <!-- <div class="row"> -->
+        <nav> <a class="nav-link" href="BKRCLA003/FinalPaper.pdf"> > Final Paper</a> </nav>
+        <nav> <a class="nav-link" href="BKRCLA003/LitReview.pdf"> > Literature Review</a> </nav>
     </div>
+ </div>
 
 
-<div class="row">
+ <div class="row">
     <div>
       <h1>References</h1>
       <p>[1] S. Kraus, D. Lehmann and M. Magidor. 1990. Nonmonotonic reasoning, preferential models and cumulative logics. Artificial Intelligence 44 (1990), 167–207</p>
     </div>
-</div>
+ </div>
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
-<div class="container">
+ <footer class="py-5 bg-dark">
+  <div class="container">
     <p class="m-0 text-center text-white">Copyright &copy; CDR 2019</p>
-</div>
-<!-- /.container -->
-</footer>
+  </div>
+  <!-- /.container -->
+ </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
