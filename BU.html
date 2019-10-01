@@ -81,85 +81,76 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Contact
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3" style="color:#21b864;">Belief Update
+      <!--<small>Subheading</small>-->
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <a href="index.html">Home</a>
       </li>
-      <li class="breadcrumb-item active">Contact</li>
+      <li class="breadcrumb-item active">Belief Update</li>
     </ol>
-
-    <!-- Content Row -->
-    <div class="row">
-      <!-- Map Column -->
-      <div class="col-lg-8 mb-4">
-        <!-- Embedded Google Map -->
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-      </div>
-      <!-- Contact Details Column -->
-      <div class="col-lg-4 mb-4">
-        <h3>Contact Details</h3>
-        <p>
-          3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </p>
-        <p>
-          <abbr title="Phone">P</abbr>: (123) 456-7890
-        </p>
-        <p>
-          <abbr title="Email">E</abbr>:
-          <a href="mailto:name@example.com">name@example.com
-          </a>
-        </p>
-        <p>
-          <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-        </p>
-      </div>
+    <div style="width:100%; display: flex; justify-content: center;">
+      <image src="FRNPAU013/belief_update.jpg" alt="" style="width:500px;">
     </div>
-    <!-- /.row -->
+    <nav> <a class="nav-link" href="FRNPAU013/FRNPAU013_FinalPaper.pdf"> > Paper</a> </nav>
+    <nav> <a class="nav-link" href="DNNCLA004/FRNPAU013LiteratureReview.pdf"> > Literature Review</a> </nav>
+  <div class="row">
+    <h2 style="color:MediumSeaGreen;">Outline of Belief Update</h2>
+    <p>
+      Say that you initially have a certain set of beliefs, but later come into contact with
+      new information that contradicts one or more of those beliefs. Propositional logic, a
+      paradigm way of modelling such beliefs, provides no guidance as to what to now believe.
+      So to answer this question, propositional logic should be extended. The AGM approach
+      to belief revision and the KM approach to belief update are two separate approaches to such
+      an extension. The distinction between the two is that belief revision is taken to be appropriate
+      when learning new information about an unchanging world, while belief update is
+      appropriate when learning of the world that it has undergone new changes.
+    </p>
+  </div>
+  <div class="row">
+    <h2 style="color:MediumSeaGreen;">Project Purpose</h2>
+    <p>
+      In the AI community the relevance of non-classical extensions to propositional logic, such as the KM approach
+      to belief update, is often held to be that they model a certain flexibility of reasoning found in human reasoning, a
+      flexibility that the AI community would like to incorporate in their work. However, the rules governing
+      the extensions are often proposed simply on the basis that they seem reasonable. Such is the case in the KM
+      approach to belief update, which proposes eight properties governing the non-classical part of the logic. The purpose
+      of this part of the project was to test the extent to which these properties conform to human reasoning.
+    </p>
+  </div>
+  <div class="row">
+    <h2 style="color:MediumSeaGreen;">Methodology</h2>
+    <p>
+      A survey was developed using Google forms, which was completed by workers on Amazon's Mechanical Turk.
+      Respondents were to complete three tasks:
+      <ol>
+        <li> Rate their agreement with a non-formal rendition of each of the eight properties on a five point Likert scale</li>
+        <li>Indicate whether they agreed with examples that modelled each of the postulates, and provide a reason for their
+        choice.</li>
+        <li>Indicate whether they agreed with counter-examples to the postulates, and provide a reason for their
+        choice.</li>
+      <ol>
+    </p>
+  </div>
+  <div class="row">
+    <h2 style="color:MediumSeaGreen;">Results and Conclusions</h2>
+    <p>
+      <ol>
+        <li>Six of the eight postulates saw a better than neutral median agreement value.</li>
+        <li>All of the examples of confirming models of the postulates saw over 50% agreement with. On the qualitative
+        side partipants generally reasoned as if they had the postulates in mind.</li>
+        <li>Four counter-examples to the postulates saw agreement rates over 50%. Qualitatively the participants
+        reasoned as would be expected given theory.</li>
+      </ol>
+      The results provide some indication that the postulates are a good fit with human reasoning. Importantly, the reasons
+      given for agreement with the confirming examples for the postulates provides some evidence of a more general trend in reasoning,
+      beyond simply the specific examples. However, the results for the last task indicate that exceptions to the postulates <!DOCTYPE html>
+      exist.
+    </p>
+  </div>
 
-    <!-- Contact Form -->
-    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <div class="row">
-      <div class="col-lg-8 mb-4">
-        <h3>Send us a Message</h3>
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Full Name:</label>
-              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-              <p class="help-block"></p>
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Phone Number:</label>
-              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Email Address:</label>
-              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Message:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-            </div>
-          </div>
-          <div id="success"></div>
-          <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-        </form>
-      </div>
-
-    </div>
     <!-- /.row -->
 
   </div>
@@ -168,7 +159,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; CDR 2019</p>
     </div>
     <!-- /.container -->
   </footer>
